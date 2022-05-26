@@ -64,6 +64,13 @@ h5{
 
 }
 
+.a{
+  color: var(--primary); 
+  margin-top: 26px;
+  margin-left: 185px;
+  font-size: 15px;
+}
+
 .menu li a{
   color: white;
   text-decoration: Blue;
