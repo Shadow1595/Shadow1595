@@ -32,10 +32,23 @@ h2{
   font: var(--headline2);
 }
 
+.letra{
+  font-size: 20px;
+  color: var(--primary);
+
+}
+
 p{
   font: var(--button);
   color: white;
-  font-size: 15px;
+  font-size: 16px;
+}
+
+h3{
+  margin-top: 50px;
+  font-size: 40px;
+  color: var(--primary);
+
 }
 
 
@@ -59,21 +72,18 @@ h5{
   font-size:  20px;
   margin-top: 50px;
 
-  
-
-
 }
 
-.a{
-  color: var(--primary); 
-  margin-top: 26px;
-  margin-left: 185px;
-  font-size: 15px;
+  .a{
+    color: var(--primary); 
+    margin-top: 26px;
+    margin-left: 185px;
+    font-size: 15px;
 }
 
 .menu li a{
   color: white;
-  text-decoration: Blue;
+  text-decoration: blue;
 
 }
 
@@ -81,7 +91,6 @@ h5{
   background: var(--primary);
   margin-top: 10px;
   color: white;
-  font-size: px;
   margin-left: 190px;
   padding: 10px;
   margin-top: 40px;
@@ -92,18 +101,141 @@ h5{
 
   background: var(--primary);
   color: white;
-  font-size: px;
+  font-size: 10px;
   margin-left: 190px;
   padding: 10px;
   
 }
 
 
-.titulo{
+.boton3{
+
+  background: var(--primary);
+  margin-top: 90px;
+  color: white;
+  font-size: 50px;
+  margin-left: 178px;
+  padding: 10px;
+  width: 480px;
+  height: 15%;
+}
+
+.boton4{
+ 
   background: var(--primary);
   color: white;
-  padding: 20px;
-  margin-top: 40px;
+  border-radius: 10px;
+  margin-left: 190px;
+  margin-right: 25px;
+  width: 160px;
+  height: 15%;
+  font: var(--button);
+
 
 }
 
+.boton5{
+  background: none;
+  border-color: var(--primary);
+  border-radius: 10px;
+  border-width: 2px;
+  color: var(--primary);
+  width: 120px;
+  height: 15%;
+  font: var(--button);
+
+
+}
+
+.boton6{
+  background: var(--primary);
+  margin-top: 400px;
+  color: white;
+  font-size: 50px;
+  margin-left: 178px;
+  padding: 10px;
+  width: 256px;
+  height: 10%;
+}
+.boton7{
+  background: var(--primary);
+  color: white;
+  border-radius: 10px;
+  margin-left: 177px;
+  margin-right: 25px;
+  width: 160px;
+  height: 7%;
+  font: var(--button);
+}
+.boton8{
+  background: none;
+  border-color: var(--primary);
+  border-radius: 10px;
+  border-width: 2px;
+  color: var(--primary);
+  width: 160px;
+  height: 7%;
+  font: var(--button);
+}
+
+}
+
+}
+
+
+.letra{
+  width: 20px;
+}
+
+.comentarios{
+  background: var(--primary);
+
+  font: var(--button);
+    margin-top: 90px;
+    color: white;
+    font-size: 35px;
+    padding: 10px;
+    width: 360px;
+
+}
+
+.borde{
+  border: 5px solid white;
+  background: solid blue;
+  border-radius: 20px;
+  margin-top: 90px;
+  color: white;
+  margin-left: 178px;
+  padding: 120px;
+  width: 72%;
+  height: 15%;
+}
+
+.icono{
+  width: 100px;
+  margin-left: 300px;
+  margin-top: -140px;
+
+}
+
+.descripcion{
+  text-align: center;
+  font-size: 22px;
+  color: var(--primary);
+
+}
+
+.pagina{
+  font-size: 24px;
+  color: var(--primary);
+}
+
+.ipad{
+  margin-top: 200px;
+}
+
+.pagina2{
+  font-size:32px;
+  color: var(--primary);
+  text-align: center;
+}
